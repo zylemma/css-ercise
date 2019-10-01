@@ -14,7 +14,7 @@
   width: 15px;
   border-radius: 32px;
   animation-name: blink;
-  animation-duration: 2s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
@@ -32,20 +32,199 @@
   border: 4px solid red;
   border-radius: 32px;
   animation-name: stay;
-  animation-duration: 2s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
 .face {
-  width: 100px;
-  height: 100px;
-  display: block;
-  position:absolute;
-  top: 50%;
-  left: 50%;
+  position: fixed;
+  top: 10%;
+  left: 5%;
 }
 
+.head1 {
+  /* background-color: #f7c12b; */
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(247,193,43,1) 100%);
+  height: 100px;
+  width: 100px;
+  /* border: 4px solid grey; */
+  border-radius: 64px;
 
+}
+
+.eye1 {
+  background-color: #2f2f2f;
+  height: 15px;
+  width: 15px;
+  border-radius: 32px;
+  animation-name: blink;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+.eyes1 {
+  width: 65px;
+  display: flex;
+  justify-content: space-between;
+  transform: translate(18px, -60px);
+}
+
+.mouth1 {
+  background-color: alpha;
+  height: 8px;
+  width: 14px;
+  border: 4px solid red;
+  border-radius: 32px;
+  animation-name: stay;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+.face1 {
+  position: fixed;
+  top: 10%;
+  left: 25%;
+}
+
+.head2 {
+  /* background-color: #f7c12b; */
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(247,193,43,1) 100%);
+  height: 100px;
+  width: 100px;
+  /* border: 4px solid grey; */
+  border-radius: 64px;
+
+}
+
+.eye2 {
+  background-color: #2f2f2f;
+  height: 15px;
+  width: 15px;
+  border-radius: 32px;
+  animation-name: blink;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+.eyes2 {
+  width: 65px;
+  display: flex;
+  justify-content: space-between;
+  transform: translate(18px, -60px);
+}
+
+.mouth2 {
+  background-color: alpha;
+  height: 8px;
+  width: 14px;
+  border: 4px solid red;
+  border-radius: 32px;
+  animation-name: stay;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+.face2 {
+  position: fixed;
+  top: 10%;
+  left: 45%;
+}
+
+.head3 {
+  /* background-color: #f7c12b; */
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(247,193,43,1) 100%);
+  height: 100px;
+  width: 100px;
+  /* border: 4px solid grey; */
+  border-radius: 64px;
+
+}
+
+.eye3 {
+  background-color: #2f2f2f;
+  height: 15px;
+  width: 15px;
+  border-radius: 32px;
+  animation-name: blink;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+.eyes3 {
+  width: 65px;
+  display: flex;
+  justify-content: space-between;
+  transform: translate(18px, -60px);
+}
+
+.mouth3 {
+  background-color: alpha;
+  height: 8px;
+  width: 14px;
+  border: 4px solid red;
+  border-radius: 32px;
+  animation-name: stay;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+
+.face3 {
+  position: fixed;
+  top: 10%;
+  left: 65%;
+}
+
+.head4 {
+  /* background-color: #f7c12b; */
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(247,193,43,1) 100%);
+  height: 100px;
+  width: 100px;
+  /* border: 4px solid grey; */
+  border-radius: 64px;
+
+}
+
+.eye4 {
+  background-color: #2f2f2f;
+  height: 15px;
+  width: 15px;
+  border-radius: 32px;
+  animation-name: blink;
+  animation-duration: 5s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+
+.eyes4 {
+  width: 65px;
+  display: flex;
+  justify-content: space-between;
+  transform: translate(18px, -60px);
+}
+
+.mouth4 {
+  background-color: alpha;
+  height: 8px;
+  width: 14px;
+  border: 4px solid red;
+  border-radius: 32px;
+  animation-name: stay;
+  animation-duration: 5s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+}
+
+.face4 {
+  position: fixed;
+  top: 10%;
+  left: 85%;
+}
 
 @keyframes blink {
 
@@ -58,9 +237,9 @@
 
 @keyframes stay {
 
-  0% {transform: translate(39px, -45px);}
-  10% {transform: translate(39px, -60px);}
-  90% {transform: translate(39px, -60px);}
-  100% {transform: translate(39px, -45px);}
+  0% {transform: translate(39px, -45px); height: 8px;}
+  10% {transform: translate(39px, -60px); height: 0px;}
+  90% {transform: translate(39px, -60px); height: 0px;}
+  100% {transform: translate(39px, -45px); height: 8px;}
 
 }
