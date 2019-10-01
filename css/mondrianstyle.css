@@ -1,0 +1,186 @@
+.drawing {
+  position: fixed;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hzyellowstrip1 {
+  background-color: #e6cf34;
+  width: 99vw;
+  height: 2vh;
+  position:fixed;
+  top: 2%;
+}
+
+.hzyellowstrip2 {
+  background-color: #e6cf34;
+  width: 99vw;
+  height: 2vh;
+  position:fixed;
+  top: 15%;
+}
+
+.hzyellowstrip3 {
+  background-color: #e6cf34;
+  width: 99vw;
+  height: 2vh;
+  position:fixed;
+  top: 35%;
+}
+
+.hzyellowstrip4 {
+  background-color: #e6cf34;
+  width: 99vw;
+  height: 2vh;
+  position:fixed;
+  top: 43%;
+}
+
+.hzyellowstrip5 {
+  background-color: #e6cf34;
+  width: 99vw;
+  height: 2vh;
+  position:fixed;
+  top: 56%;
+}
+
+.hzyellowstrip6 {
+  background-color: #e6cf34;
+  width: 99vw;
+  height: 2vh;
+  position:fixed;
+  top: 62%;
+}
+
+.hzyellowstrip7 {
+  background-color: #e6cf34;
+  width: 99vw;
+  height: 2vh;
+  position:fixed;
+  top: 85.5%;
+}
+
+.hzyellowstrip8 {
+  background-color: #e6cf34;
+  width: 99vw;
+  height: 2vh;
+  position:fixed;
+  top: 94.5%;
+}
+
+.vtyellowstrip1 {
+  background-color: #e6cf34;
+  width: 1.3vw;
+  height: 99vh;
+  position:fixed;
+  left: 6%;
+}
+
+.vtyellowstrip2 {
+  background-color: #e6cf34;
+  width: 1.3vw;
+  height: 99vh;
+  position:fixed;
+  left: 11.5%;
+}
+
+.vtyellowstrip3 {
+  background-color: #e6cf34;
+  width: 1.3vw;
+  height: 99vh;
+  position:fixed;
+  left: 22.5%;
+}
+
+.vtyellowstrip4 {
+  background-color: #e6cf34;
+  width: 1.3vw;
+  height: 99vh;
+  position:fixed;
+  left: 54%;
+}
+
+.vtyellowstrip5 {
+  background-color: #e6cf34;
+  width: 1.3vw;
+  height: 99vh;
+  position:fixed;
+  left: 84%;
+}
+
+.vtyellowstrip6 {
+  background-color: #e6cf34;
+  width: 1.3vw;
+  height: 99vh;
+  position:fixed;
+  left: 96%;
+}
+
+.shortvtstrip1 {
+  background-color: #e6cf34;
+  width: 1.3vw;
+  height: 35vh;
+  position:fixed;
+  left: 2.5%;
+}
+
+.shortvtstrip2 {
+  background-color: #e6cf34;
+  width: 1.3vw;
+  height: 35vh;
+  position:fixed;
+  left: 58%;
+}
+
+.shortvtstrip3 {
+  background-color: #e6cf34;
+  width: 1.3vw;
+  height: 57vh;
+  position:fixed;
+  left: 58%;
+  top: 43%;
+}
+
+.shortvtstrip4 {
+  background-color: #e6cf34;
+  width: 1.3vw;
+  height: 19vh;
+  position:fixed;
+  left: 65%;
+  top: 43%;
+}
+
+.shortvtstrip5 {
+  background-color: #e6cf34;
+  width: 1.3vw;
+  height: 35vh;
+  position:fixed;
+  left: 88%;
+}
+
+.shortvtstrip6 {
+  background-color: #e6cf34;
+  width: 1.3vw;
+  height: 10vh;
+  position:fixed;
+  left: 92.5%;
+}
+
+.shortvtstrip7 {
+  background-color: #e6cf34;
+  width: 1.3vw;
+  height: 28vh;
+  position:fixed;
+  left: 92.5%;
+  top: 15%
+}
+
+.shortvtstrip8 {
+  background-color: #e6cf34;
+  width: 1.3vw;
+  height: 20vh;
+  position:fixed;
+  left: 92.5%;
+  top: 62%
+}
